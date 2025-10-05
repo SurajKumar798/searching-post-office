@@ -1,4 +1,4 @@
-# 📬 Post Office Finder Application
+# 📬 Searching Post Office Application
 
 This is a **Post Office Finder Web Application** that allows users to fetch and view nearby post office details based on their **current IP location**.  
 It uses APIs like **ipify**, **ipinfo**, and **Postal Pincode API** to fetch the user's location and display corresponding post office information.
@@ -7,10 +7,10 @@ It uses APIs like **ipify**, **ipinfo**, and **Postal Pincode API** to fetch the
 
 ## 🚀 Features
 
-- 🌐 Detects your **current IP address**
-- 📍 Fetches **latitude**, **longitude**, **city**, **region**, and **timezone**
-- 🗺️ Displays your **exact location on a Google Map**
-- 🏣 Lists all **post offices** near your location with details:
+- 🌐 Detect **current IP address**
+- 📍 Fetch **latitude**, **longitude**, **city**, **region**, and **timezone**
+- 🗺️ Displaying **exact location on a Google Map**
+- 🏣 Lists all **post offices** near of the location with details:
   - Name  
   - Branch Type  
   - District  
@@ -47,4 +47,4 @@ post-office-finder/
 
  Clone this repository:
    ```bash
-   git clone https://github.com/SurajKumar798/post-office-finder.git
+   git clone https://github.com/SurajKumar798/searching-post-office.git
