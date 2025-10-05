@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>searching-post-office</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+           <h3>Post Office Application.</h3>
+          <p>
+            This Application Allows you to extract information about 
+            the newarest Post Offices, based on your location.
+          </p>
+          <img src="./images/undraw_messenger_re_8bky 1.png" alt="messenger-img" />
+        </div>
+        <div class="right-side">
+            <div style="display: flex; gap: 10px;">
+                <p>Your Current IP Address is </p>
+                <p id="ip-address"></p>
+            </div>           
+            <button type="submit" id="getData">Get Started</button>
+
+            <div id="user-info">
+                <h3>user information</h3>
+                <p>IP Address: <span id="user-ip"></span></p>
+                <p>Lat: <span id="latitude"></span></p>
+                <p>Long: <span id="longitude"></span></p>
+                <p>City: <span id="city"></span></p>
+                <p>Region: <span id="region"></span></p>
+                <p>Organisation: <span id="organisation"></span></p>
+                <p>Hostname: <span id="hostname"></span></p>
+                <p>Time Zone: <span id="time-zone"></span></p>
+                <div id="map"></div>
+            </div>
+            <div id="post-offices">
+                <h3>Post Offices Near You</h3>
+                <input type="text" placeholder="Search By Name"/>
+                <ul id="post-office-list"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
